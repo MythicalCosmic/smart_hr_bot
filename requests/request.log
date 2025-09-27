@@ -475,3 +475,16 @@
 2025-09-27 10:57:26,202 - INFO - Polling stopped for bot @Smartfood_HRbot id=8211526977 - 'Smart Food HR'
 2025-09-27 10:57:26,203 - INFO - Polling stopped
 2025-09-27 10:57:26,369 - WARNING - Received SIGINT signal
+2025-09-27 10:58:44,812 - INFO - Configuration loaded successfully.
+2025-09-27 10:58:45,129 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:58:45,131 - INFO - Bot is starting...
+2025-09-27 10:58:45,131 - INFO - Bot is running in WEBHOOK mode.
+2025-09-27 10:58:45,131 - INFO - Starting bot in webhook mode...
+2025-09-27 10:58:45,810 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x74f8b41edbe0>
+2025-09-27 10:58:45,811 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x74f8b41f8530>, 18404.272352804)])']
+connector: <aiohttp.connector.TCPConnector object at 0x74f8b41ed7f0>
+2025-09-27 10:59:12,067 - INFO - Configuration loaded successfully.
+2025-09-27 10:59:12,469 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:59:12,472 - INFO - Starting in WEBHOOK mode.
