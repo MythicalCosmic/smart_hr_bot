@@ -1,0 +1,22 @@
+from aiogram.fsm.state import State, StatesGroup
+
+class UserStates(StatesGroup):
+    start = State()
+    set_language = State()
+    main = State()
+    regiser_first = State()
+    last_name = State()
+    age = State()
+    phone_number = State()
+    extra_number = State()
+    student_confirmation = State()
+    student_class_level = State()
+    workplace_old = State()
+    friend_worker = State()
+    expected_salary = State()
+    workin_us = State()
+    about_did = State()
+    position = State()
+    your_im = State()
+    confirmation_data = State()
+    address = State()

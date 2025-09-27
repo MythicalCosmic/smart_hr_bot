@@ -1,0 +1,146 @@
+uz:
+  start_message: "🍔 <b>Smart Food Fast Food Restoraniga Xush Kelibsiz!</b> 🌟\n\n😋 <i>Tez, mazali va sifatli taomlar — har doim siz bilan!</i>\n\n👇 Quyida oʻzingizga qulay tilni tanlang va roʻyxatdan oʻtishni boshlang!"
+  contact_us: |
+    📢 <b>Smart Food</b> restoraniga quyidagi manzillar orqali murojaat qilishingiz mumkin! 👇  
+
+    🏢 <u><b>Filiallarimiz:</b></u>  
+
+    1️⃣ <b>Andijon</b>  
+    📍 Andijon shahri, Markaziy maydon, 15-uy  
+    ☎️ Tel: <a href="tel:+998974731816">+998 97 473 18 16</a>  
+
+    2️⃣ <b>Marhamat</b>  
+    📍 Marhamat shahri, Mustaqillik ko‘chasi, 12-uy  
+    ☎️ Tel: <a href="tel:+998994321816">+998 99 432 18 16</a>  
+
+    🌐 Bizni ijtimoiy tarmoqlarda toping! 👇  
+    🔁 <a href="https://taplink.cc/smartfood.official">Taplink sahifamiz</a>  
+
+    📸 Yoki ushbu <b>🔳 QR-kod</b>ni skaner qiling!  
+
+  main_message: "🏠 <b>Asosiy Menyu</b> 📋\n\nIltimos, kerakli boʻlimni tanlang 👇"
+  first_name_message: "✍️ Iltimos, <b>ismingizni</b> kiriting:"
+  last_name_message: "✍️ Iltimos, <b>familiyangizni</b> kiriting:"
+  age_message: "🎂 Iltimos, <b>yoshingizni</b> kiriting:"
+  phone_number_message: "📞 Iltimos, <b>telefon raqamingizni</b> kiriting yoki quyidagi tugma orqali yuboring:"
+  phone_number_invalid: "❌ Iltimos, to'g'ri telefon raqam kiriting! (masalan: +998901234567)"
+  extra_number: "📞 Iltimos, qo‘shimcha telefon raqamingizni kiriting (majburiy emas):"
+  address_message: "📍 Iltimos, <b>manzilingizni</b> kiriting:"
+  student_mess: "🎓 Siz hozirda talabasizmi?"
+  student_class_level_mess: "📚 Siz qaysi kursda yoki o‘quv bosqichidasiz?"
+  workspace_mess: "🏢 Hozirda ish joyingiz bormi?"
+  friend_worker_mess: "👥 Biz bilan ishlaydigan do'stlaringiz bormi? Iltimos, ularni yozing."
+  expected_salary_mess: "💰 Iltimos, kutilayotgan maoshingizni kiriting:"
+  workin_us_mess: "⏳ Biz bilan qancha vaqt ishlashni rejalashtiryapsiz? (masalan: 6 oy, 1 yil, doimiy)"
+  about_did_mess: "📢 Biz haqimizda qayerdan bildingiz? (do'st, ijtimoiy tarmoq, internet, reklama va h.k.)"
+  position_mess: "💼 Qaysi lavozimga ariza bermoqchisiz? (masalan: oshpaz, kassir, yetkazib beruvchi)"
+  positon_mess: "💼 Qaysi lavozimga ariza bermoqchisiz? (alias - typo-safe key)"
+  your_im_mess: "🖼 Iltimos, o‘z fotosuratingizni yuboring."
+  please_send_photo_message: "📸 Iltimos, fotosuratingizni yuboring."
+  photo_received_message: "📷 Rasm qabul qilindi! Rahmat."
+  confirmation_data_mess: "✅ Iltimos, quyidagi ma'lumotlaringizni tasdiqlang:"
+  canceled_mess: "❌ Bekor qilindi. Agar xohlasangiz, boshidan boshlashingiz mumkin."
+  approved_message: "✅ <b>Tabriklaymiz!</b> Sizning maʼlumotlaringiz qabul qilindi 🎉\n\n📩 Operator tez orada siz bilan bogʻlanadi."
+  buttons:
+    register_button: "📌 Roʻyxatdan oʻtish"
+    contact_us_button: "📞 Aloqa"
+    settings_button: "⚙️ Sozlamalar"
+    back_button: "🔙 Ortga"
+    phone_number_button: "📱 Telefon raqamni yuborish"
+    yes_button: "Ha"
+    no_button: "Yo'q"
+    confirm_button: "Tasdiqlash"
+    choose_again_button: "Boshqa tanlash"
+
+en:
+  start_message: |
+    🍔 <b>Welcome to Smart Food Fast Food!</b> 🌟  
+    😋 <i>Fast, tasty and quality food is always with you!</i>  
+
+    👇 Please select your preferred language to continue 👇
+  main_message: "🏠 <b>Main Menu</b> 📋\n\nPlease select an option 👇"
+  first_name_message: "✍️ Please enter your <b>first name</b>:"
+  last_name_message: "✍️ Please enter your <b>last name</b>:"
+  age_message: "🎂 Please enter your <b>age</b>:"
+  phone_number_message: "📞 Please enter your <b>phone number</b> or share it using the button below:"
+  phone_number_invalid: "❌ Please enter a valid phone number! (e.g., +998901234567)"
+  extra_number: "📞 Please provide an extra phone number (optional):"
+  address_message: "📍 Please enter your <b>address</b>:"
+  student_mess: "🎓 Are you currently a student?"
+  student_class_level_mess: "📚 What is your class/level of study?"
+  workspace_mess: "🏢 Do you currently have a workplace?"
+  friend_worker_mess: "👥 Do you have any friends working with us? If yes, please mention them."
+  expected_salary_mess: "💰 Please enter your expected salary:"
+  workin_us_mess: "⏳ How long do you plan to work with us? (e.g., 6 months, 1 year, permanently)"
+  about_did_mess: "📢 How did you find out about us? (friend, social media, internet, advertisement, etc.)"
+  position_mess: "💼 Which position would you like to apply for? (e.g., cook, cashier, delivery)"
+  positon_mess: "💼 Which position would you like to apply for? (alias - typo-safe key)"
+  your_im_mess: "🖼 Please send us your photo."
+  please_send_photo_message: "📸 Please send your photo."
+  photo_received_message: "📷 Photo received! Thank you."
+  confirmation_data_mess: "✅ Please confirm your information below:"
+  canceled_mess: "❌ Canceled. You can start again anytime."
+  approved_message: "✅ <b>Congratulations!</b> Your information has been received 🎉\n\n📩 Our team will contact you shortly."
+  buttons:
+    register_button: "📌 Register Now"
+    contact_us_button: "📞 Contact Us"
+    settings_button: "⚙️ Settings"
+    back_button: "🔙 Back"
+    phone_number_button: "📱 Share Phone Number"
+    yes_button: "Yes"
+    no_button: "No"
+    confirm_button: "Confirm"
+    choose_again_button: "Choose Another"
+
+ru:
+  start_message: "🍔 <b>Добро пожаловать в Smart Food!</b> 🌟\n\n😋 <i>Быстро, вкусно и качественно!</i>\n\n👇 Пожалуйста, выберите язык для продолжения 👇"
+  contact_us: |
+    📢 Вы можете связаться с рестораном <b>Smart Food</b> по следующим адресам! 👇  
+
+    🏢 <u><b>Наши филиалы:</b></u>  
+
+    1️⃣ <b>Андижан</b>  
+    📍 г. Андижан, Центральная площадь, д. 15  
+    ☎️ Тел: <a href="tel:+998974731816">+998 97 473 18 16</a>  
+
+    2️⃣ <b>Мархамат</b>  
+    📍 г. Мархамат, ул. Мустакиллик, д. 12  
+    ☎️ Тел: <a href="tel:+998994321816">+998 99 432 18 16</a>  
+
+    🌐 Мы в соцсетях 👇  
+    🔁 <a href="https://taplink.cc/smartfood.official">Наша страница Taplink</a>  
+
+    📸 Или просто отсканируйте <b>🔳 QR-код</b>! 
+  main_message: "🏠 <b>Главное меню</b> 📋\n\nПожалуйста, выберите раздел 👇"
+  first_name_message: "✍️ Пожалуйста, введите ваше <b>имя</b>:"
+  last_name_message: "✍️ Пожалуйста, введите вашу <b>фамилию</b>:"
+  age_message: "🎂 Пожалуйста, введите ваш <b>возраст</b>:"
+  phone_number_message: "📞 Пожалуйста, введите ваш <b>номер телефона</b> или отправьте его кнопкой ниже:"
+  phone_number_invalid: "❌ Пожалуйста, введите корректный номер телефона! (например: +998901234567)"
+  extra_number: "📞 Пожалуйста, укажите дополнительный номер телефона (по желанию):"
+  address_message: "📍 Пожалуйста, введите ваш <b>адрес</b>:"
+  student_mess: "🎓 Вы сейчас студент?"
+  student_class_level_mess: "📚 На каком вы курсе/уровне обучения?"
+  workspace_mess: "🏢 У вас сейчас есть место работы?"
+  friend_worker_mess: "👥 Есть ли у вас друзья, работающие у нас? Если да, укажите их."
+  expected_salary_mess: "💰 Пожалуйста, укажите ожидаемую зарплату:"
+  workin_us_mess: "⏳ Как долго вы планируете у нас работать? (например: 6 месяцев, 1 год, постоянно)"
+  about_did_mess: "📢 Где вы о нас узнали? (друг, соцсети, интернет, реклама и т.д.)"
+  position_mess: "💼 На какую должность вы хотите подать заявку? (например: повар, кассир, курьер)"
+  positon_mess: "💼 На какую должность вы хотите подать заявку? (alias - typo-safe key)"
+  your_im_mess: "🖼 Пожалуйста, отправьте ваше фото."
+  please_send_photo_message: "📸 Пожалуйста, отправьте ваше фото."
+  photo_received_message: "📷 Фото получено! Спасибо."
+  confirmation_data_mess: "✅ Пожалуйста, подтвердите ваши данные ниже:"
+  canceled_mess: "❌ Операция отменена. Вы можете начать заново."
+  approved_message: "✅ <b>Спасибо!</b> Ваша информация принята 🎉\n\n📩 Наш оператор свяжется с вами в ближайшее время."
+  buttons:
+    register_button: "📌 Зарегистрироваться"
+    contact_us_button: "📞 Связаться с нами"
+    settings_button: "⚙️ Настройки"
+    back_button: "🔙 Назад"
+    phone_number_button: "📱 Отправить номер телефона"
+    yes_button: "Да"
+    no_button: "Нет"
+    confirm_button: "Подтвердить"
+    choose_again_button: "Выбрать другую"

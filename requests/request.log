@@ -1,0 +1,477 @@
+2025-09-27 09:49:17,909 - WARNING - Received SIGINT signal
+2025-09-27 09:49:17,978 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 09:49:17,982 - INFO - Polling stopped
+2025-09-27 09:49:18,062 - WARNING - Received SIGINT signal
+2025-09-27 09:49:18,179 - WARNING - Received SIGINT signal
+2025-09-27 09:49:25,880 - INFO - Configuration loaded successfully.
+2025-09-27 09:49:26,206 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 09:49:26,208 - INFO - Bot is starting...
+2025-09-27 09:49:26,209 - INFO - Bot is running in POLLING mode.
+2025-09-27 09:49:26,209 - INFO - Starting bot in polling mode...
+2025-09-27 09:49:27,014 - INFO - Start polling
+2025-09-27 09:49:27,215 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 09:49:29,889 - INFO - Update id=331455845 is handled. Duration 401 ms by bot id=8170384586
+2025-09-27 09:49:30,871 - INFO - Update id=331455846 is handled. Duration 142 ms by bot id=8170384586
+2025-09-27 09:49:32,839 - INFO - Update id=331455847 is handled. Duration 171 ms by bot id=8170384586
+2025-09-27 09:49:34,601 - INFO - Update id=331455848 is handled. Duration 159 ms by bot id=8170384586
+2025-09-27 09:49:36,763 - INFO - Update id=331455849 is handled. Duration 264 ms by bot id=8170384586
+2025-09-27 09:49:38,178 - INFO - Update id=331455850 is handled. Duration 184 ms by bot id=8170384586
+2025-09-27 09:49:40,192 - INFO - Update id=331455851 is handled. Duration 127 ms by bot id=8170384586
+2025-09-27 09:49:43,504 - INFO - Update id=331455852 is handled. Duration 139 ms by bot id=8170384586
+2025-09-27 09:49:45,863 - INFO - Update id=331455853 is handled. Duration 191 ms by bot id=8170384586
+2025-09-27 09:49:47,458 - INFO - Update id=331455854 is handled. Duration 455 ms by bot id=8170384586
+2025-09-27 09:49:49,424 - INFO - Update id=331455855 is handled. Duration 165 ms by bot id=8170384586
+2025-09-27 09:49:51,555 - INFO - Update id=331455856 is handled. Duration 217 ms by bot id=8170384586
+2025-09-27 09:49:53,503 - INFO - Update id=331455857 is handled. Duration 146 ms by bot id=8170384586
+2025-09-27 09:49:55,419 - INFO - Update id=331455858 is handled. Duration 222 ms by bot id=8170384586
+2025-09-27 09:49:57,345 - INFO - Update id=331455859 is handled. Duration 206 ms by bot id=8170384586
+2025-09-27 09:50:00,712 - INFO - Update id=331455860 is handled. Duration 188 ms by bot id=8170384586
+2025-09-27 09:50:02,225 - INFO - Update id=331455861 is handled. Duration 225 ms by bot id=8170384586
+2025-09-27 09:50:06,799 - INFO - Update id=331455862 is handled. Duration 234 ms by bot id=8170384586
+2025-09-27 09:50:16,963 - INFO - Update id=331455863 is handled. Duration 163 ms by bot id=8170384586
+2025-09-27 09:59:03,539 - WARNING - Received SIGINT signal
+2025-09-27 09:59:03,697 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 09:59:03,705 - INFO - Polling stopped
+2025-09-27 09:59:03,745 - WARNING - Received SIGINT signal
+2025-09-27 09:59:03,815 - WARNING - Received SIGINT signal
+2025-09-27 09:59:03,954 - WARNING - Received SIGINT signal
+2025-09-27 09:59:09,980 - INFO - Configuration loaded successfully.
+2025-09-27 09:59:44,037 - INFO - Configuration loaded successfully.
+2025-09-27 09:59:44,446 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 09:59:44,448 - INFO - Bot is starting...
+2025-09-27 09:59:44,449 - INFO - Bot is running in POLLING mode.
+2025-09-27 09:59:44,449 - INFO - Starting bot in polling mode...
+2025-09-27 09:59:45,005 - INFO - Start polling
+2025-09-27 09:59:45,112 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 09:59:46,819 - INFO - Update id=331455867 is handled. Duration 409 ms by bot id=8170384586
+2025-09-27 09:59:47,853 - INFO - Update id=331455868 is handled. Duration 148 ms by bot id=8170384586
+2025-09-27 09:59:50,803 - INFO - Update id=331455869 is handled. Duration 455 ms by bot id=8170384586
+2025-09-27 09:59:53,289 - INFO - Update id=331455870 is handled. Duration 207 ms by bot id=8170384586
+2025-09-27 09:59:56,468 - INFO - Update id=331455871 is handled. Duration 149 ms by bot id=8170384586
+2025-09-27 09:59:58,184 - INFO - Update id=331455872 is handled. Duration 153 ms by bot id=8170384586
+2025-09-27 10:00:01,085 - INFO - Update id=331455873 is handled. Duration 249 ms by bot id=8170384586
+2025-09-27 10:00:03,461 - INFO - Update id=331455874 is handled. Duration 305 ms by bot id=8170384586
+2025-09-27 10:00:04,838 - INFO - Update id=331455875 is handled. Duration 147 ms by bot id=8170384586
+2025-09-27 10:00:09,811 - INFO - Update id=331455876 is handled. Duration 411 ms by bot id=8170384586
+2025-09-27 10:00:11,814 - INFO - Update id=331455877 is handled. Duration 158 ms by bot id=8170384586
+2025-09-27 10:00:13,857 - INFO - Update id=331455878 is handled. Duration 147 ms by bot id=8170384586
+2025-09-27 10:00:16,551 - INFO - Update id=331455879 is handled. Duration 285 ms by bot id=8170384586
+2025-09-27 10:00:19,114 - INFO - Update id=331455880 is handled. Duration 172 ms by bot id=8170384586
+2025-09-27 10:00:21,228 - INFO - Update id=331455881 is handled. Duration 184 ms by bot id=8170384586
+2025-09-27 10:00:22,664 - INFO - Update id=331455882 is handled. Duration 149 ms by bot id=8170384586
+2025-09-27 10:00:26,837 - INFO - Update id=331455883 is handled. Duration 901 ms by bot id=8170384586
+2025-09-27 10:03:40,972 - WARNING - Received SIGINT signal
+2025-09-27 10:03:41,071 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:03:41,076 - INFO - Polling stopped
+2025-09-27 10:03:41,186 - WARNING - Received SIGINT signal
+2025-09-27 10:03:41,259 - WARNING - Received SIGINT signal
+2025-09-27 10:03:41,365 - WARNING - Received SIGINT signal
+2025-09-27 10:03:48,382 - INFO - Configuration loaded successfully.
+2025-09-27 10:03:48,912 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:03:48,914 - INFO - Bot is starting...
+2025-09-27 10:03:48,914 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:03:48,914 - INFO - Starting bot in polling mode...
+2025-09-27 10:03:49,894 - INFO - Start polling
+2025-09-27 10:03:50,096 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:03:52,491 - WARNING - Received SIGINT signal
+2025-09-27 10:03:52,492 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:03:52,492 - INFO - Polling stopped
+2025-09-27 10:03:52,661 - WARNING - Received SIGINT signal
+2025-09-27 10:06:46,813 - INFO - Configuration loaded successfully.
+2025-09-27 10:07:13,475 - INFO - Configuration loaded successfully.
+2025-09-27 10:07:13,824 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:07:13,826 - INFO - Bot is starting...
+2025-09-27 10:07:13,827 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:07:13,827 - INFO - Starting bot in polling mode...
+2025-09-27 10:07:14,656 - INFO - Start polling
+2025-09-27 10:07:14,860 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:07:16,682 - INFO - Update id=331455885 is handled. Duration 477 ms by bot id=8170384586
+2025-09-27 10:07:17,621 - INFO - Update id=331455886 is handled. Duration 178 ms by bot id=8170384586
+2025-09-27 10:07:21,813 - INFO - Update id=331455887 is handled. Duration 248 ms by bot id=8170384586
+2025-09-27 10:07:25,592 - INFO - Update id=331455888 is handled. Duration 261 ms by bot id=8170384586
+2025-09-27 10:07:27,705 - INFO - Update id=331455889 is handled. Duration 148 ms by bot id=8170384586
+2025-09-27 10:07:29,877 - INFO - Update id=331455890 is handled. Duration 679 ms by bot id=8170384586
+2025-09-27 10:07:32,410 - INFO - Update id=331455891 is handled. Duration 144 ms by bot id=8170384586
+2025-09-27 10:07:35,078 - INFO - Update id=331455892 is handled. Duration 151 ms by bot id=8170384586
+2025-09-27 10:07:36,930 - INFO - Update id=331455893 is handled. Duration 329 ms by bot id=8170384586
+2025-09-27 10:07:39,084 - INFO - Update id=331455894 is handled. Duration 159 ms by bot id=8170384586
+2025-09-27 10:07:41,175 - INFO - Update id=331455895 is handled. Duration 149 ms by bot id=8170384586
+2025-09-27 10:07:43,092 - INFO - Update id=331455896 is handled. Duration 173 ms by bot id=8170384586
+2025-09-27 10:07:45,114 - INFO - Update id=331455897 is handled. Duration 147 ms by bot id=8170384586
+2025-09-27 10:07:47,399 - INFO - Update id=331455898 is handled. Duration 180 ms by bot id=8170384586
+2025-09-27 10:07:49,452 - INFO - Update id=331455899 is handled. Duration 163 ms by bot id=8170384586
+2025-09-27 10:07:52,146 - INFO - Update id=331455900 is handled. Duration 293 ms by bot id=8170384586
+2025-09-27 10:07:58,919 - INFO - Update id=331455901 is handled. Duration 127 ms by bot id=8170384586
+2025-09-27 10:08:13,185 - WARNING - Received SIGINT signal
+2025-09-27 10:08:13,186 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:08:13,186 - INFO - Polling stopped
+2025-09-27 10:08:13,361 - WARNING - Received SIGINT signal
+2025-09-27 10:08:52,307 - INFO - Configuration loaded successfully.
+2025-09-27 10:08:52,640 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:08:52,642 - INFO - Bot is starting...
+2025-09-27 10:08:52,642 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:08:52,642 - INFO - Starting bot in polling mode...
+2025-09-27 10:08:53,185 - INFO - Start polling
+2025-09-27 10:08:53,426 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:08:54,103 - INFO - Update id=331455902 is handled. Duration 393 ms by bot id=8170384586
+2025-09-27 10:08:55,571 - INFO - Update id=331455903 is handled. Duration 142 ms by bot id=8170384586
+2025-09-27 10:08:57,737 - INFO - Update id=331455904 is handled. Duration 144 ms by bot id=8170384586
+2025-09-27 10:08:59,649 - INFO - Update id=331455905 is handled. Duration 188 ms by bot id=8170384586
+2025-09-27 10:09:01,705 - INFO - Update id=331455906 is handled. Duration 155 ms by bot id=8170384586
+2025-09-27 10:09:03,415 - INFO - Update id=331455907 is handled. Duration 151 ms by bot id=8170384586
+2025-09-27 10:09:06,436 - INFO - Update id=331455908 is handled. Duration 157 ms by bot id=8170384586
+2025-09-27 10:09:08,567 - INFO - Update id=331455909 is handled. Duration 180 ms by bot id=8170384586
+2025-09-27 10:09:09,730 - INFO - Update id=331455910 is handled. Duration 173 ms by bot id=8170384586
+2025-09-27 10:09:11,857 - INFO - Update id=331455911 is handled. Duration 152 ms by bot id=8170384586
+2025-09-27 10:09:13,900 - INFO - Update id=331455912 is handled. Duration 145 ms by bot id=8170384586
+2025-09-27 10:09:16,158 - INFO - Update id=331455913 is handled. Duration 151 ms by bot id=8170384586
+2025-09-27 10:09:18,037 - INFO - Update id=331455914 is handled. Duration 145 ms by bot id=8170384586
+2025-09-27 10:09:23,010 - INFO - Update id=331455915 is handled. Duration 144 ms by bot id=8170384586
+2025-09-27 10:09:26,303 - INFO - Update id=331455916 is handled. Duration 159 ms by bot id=8170384586
+2025-09-27 10:09:28,418 - INFO - Update id=331455917 is handled. Duration 152 ms by bot id=8170384586
+2025-09-27 10:09:30,029 - INFO - Update id=331455918 is handled. Duration 148 ms by bot id=8170384586
+2025-09-27 10:09:35,353 - INFO - Update id=331455919 is handled. Duration 190 ms by bot id=8170384586
+2025-09-27 10:09:37,116 - INFO - Update id=331455920 is handled. Duration 178 ms by bot id=8170384586
+2025-09-27 10:09:57,247 - WARNING - Received SIGINT signal
+2025-09-27 10:09:57,248 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:09:57,248 - INFO - Polling stopped
+2025-09-27 10:09:57,424 - WARNING - Received SIGINT signal
+2025-09-27 10:10:02,795 - INFO - Configuration loaded successfully.
+2025-09-27 10:10:03,121 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:10:03,123 - INFO - Bot is starting...
+2025-09-27 10:10:03,124 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:10:03,124 - INFO - Starting bot in polling mode...
+2025-09-27 10:10:03,793 - INFO - Start polling
+2025-09-27 10:10:04,001 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:10:06,693 - INFO - Update id=331455921 is handled. Duration 807 ms by bot id=8170384586
+2025-09-27 10:10:08,114 - INFO - Update id=331455922 is handled. Duration 183 ms by bot id=8170384586
+2025-09-27 10:10:10,385 - INFO - Update id=331455923 is handled. Duration 513 ms by bot id=8170384586
+2025-09-27 10:10:14,572 - INFO - Update id=331455924 is handled. Duration 194 ms by bot id=8170384586
+2025-09-27 10:10:17,851 - INFO - Update id=331455925 is handled. Duration 174 ms by bot id=8170384586
+2025-09-27 10:10:20,440 - INFO - Update id=331455926 is handled. Duration 148 ms by bot id=8170384586
+2025-09-27 10:10:24,564 - INFO - Update id=331455927 is handled. Duration 159 ms by bot id=8170384586
+2025-09-27 10:10:27,646 - INFO - Update id=331455928 is handled. Duration 262 ms by bot id=8170384586
+2025-09-27 10:10:29,677 - INFO - Update id=331455929 is handled. Duration 143 ms by bot id=8170384586
+2025-09-27 10:10:30,903 - INFO - Update id=331455930 is handled. Duration 194 ms by bot id=8170384586
+2025-09-27 10:10:32,816 - INFO - Update id=331455931 is handled. Duration 145 ms by bot id=8170384586
+2025-09-27 10:10:34,906 - INFO - Update id=331455932 is handled. Duration 145 ms by bot id=8170384586
+2025-09-27 10:10:36,960 - INFO - Update id=331455933 is handled. Duration 143 ms by bot id=8170384586
+2025-09-27 10:10:39,060 - INFO - Update id=331455934 is handled. Duration 207 ms by bot id=8170384586
+2025-09-27 10:10:41,280 - INFO - Update id=331455935 is handled. Duration 171 ms by bot id=8170384586
+2025-09-27 10:10:43,316 - INFO - Update id=331455936 is handled. Duration 159 ms by bot id=8170384586
+2025-09-27 10:10:46,338 - INFO - Update id=331455937 is handled. Duration 142 ms by bot id=8170384586
+2025-09-27 10:10:48,378 - INFO - Update id=331455938 is handled. Duration 201 ms by bot id=8170384586
+2025-09-27 10:10:50,467 - INFO - Update id=331455939 is handled. Duration 142 ms by bot id=8170384586
+2025-09-27 10:10:51,803 - INFO - Update id=331455940 is handled. Duration 147 ms by bot id=8170384586
+2025-09-27 10:11:02,510 - INFO - Update id=331455941 is handled. Duration 161 ms by bot id=8170384586
+2025-09-27 10:11:08,520 - INFO - Update id=331455942 is handled. Duration 376 ms by bot id=8170384586
+2025-09-27 10:11:08,931 - INFO - Update id=331455943 is handled. Duration 614 ms by bot id=8170384586
+2025-09-27 10:11:13,877 - INFO - Update id=331455944 is handled. Duration 206 ms by bot id=8170384586
+2025-09-27 10:11:14,943 - INFO - Update id=331455945 is handled. Duration 146 ms by bot id=8170384586
+2025-09-27 10:11:21,597 - INFO - Update id=331455946 is handled. Duration 141 ms by bot id=8170384586
+2025-09-27 10:11:46,416 - INFO - Update id=331455947 is handled. Duration 377 ms by bot id=8170384586
+2025-09-27 10:11:48,063 - INFO - Update id=331455948 is handled. Duration 186 ms by bot id=8170384586
+2025-09-27 10:11:49,484 - INFO - Update id=331455949 is handled. Duration 170 ms by bot id=8170384586
+2025-09-27 10:11:51,476 - INFO - Update id=331455950 is handled. Duration 160 ms by bot id=8170384586
+2025-09-27 10:11:52,962 - INFO - Update id=331455951 is handled. Duration 169 ms by bot id=8170384586
+2025-09-27 10:11:54,284 - INFO - Update id=331455952 is handled. Duration 209 ms by bot id=8170384586
+2025-09-27 10:11:55,819 - INFO - Update id=331455953 is handled. Duration 222 ms by bot id=8170384586
+2025-09-27 10:11:57,270 - INFO - Update id=331455954 is handled. Duration 151 ms by bot id=8170384586
+2025-09-27 10:11:59,097 - INFO - Update id=331455955 is handled. Duration 159 ms by bot id=8170384586
+2025-09-27 10:12:04,057 - INFO - Update id=331455956 is handled. Duration 226 ms by bot id=8170384586
+2025-09-27 10:12:05,942 - INFO - Update id=331455957 is handled. Duration 144 ms by bot id=8170384586
+2025-09-27 10:12:07,539 - INFO - Update id=331455958 is handled. Duration 201 ms by bot id=8170384586
+2025-09-27 10:12:22,246 - INFO - Update id=331455959 is handled. Duration 575 ms by bot id=8170384586
+2025-09-27 10:12:24,945 - INFO - Update id=331455960 is handled. Duration 202 ms by bot id=8170384586
+2025-09-27 10:12:34,680 - INFO - Update id=331455961 is handled. Duration 288 ms by bot id=8170384586
+2025-09-27 10:15:16,645 - WARNING - Received SIGINT signal
+2025-09-27 10:15:16,764 - WARNING - Received SIGINT signal
+2025-09-27 10:15:16,811 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:15:16,816 - INFO - Polling stopped
+2025-09-27 10:15:16,947 - WARNING - Received SIGINT signal
+2025-09-27 10:15:17,068 - WARNING - Received SIGINT signal
+2025-09-27 10:15:24,774 - INFO - Configuration loaded successfully.
+2025-09-27 10:15:25,590 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:15:25,593 - INFO - Bot is starting...
+2025-09-27 10:15:25,594 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:15:25,594 - INFO - Starting bot in polling mode...
+2025-09-27 10:15:26,416 - INFO - Start polling
+2025-09-27 10:15:26,606 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:15:46,380 - WARNING - Received SIGINT signal
+2025-09-27 10:15:46,381 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:15:46,381 - INFO - Polling stopped
+2025-09-27 10:15:46,569 - WARNING - Received SIGINT signal
+2025-09-27 10:15:51,611 - INFO - Configuration loaded successfully.
+2025-09-27 10:15:51,941 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:15:51,943 - INFO - Bot is starting...
+2025-09-27 10:15:51,943 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:15:51,943 - INFO - Starting bot in polling mode...
+2025-09-27 10:15:52,346 - INFO - Start polling
+2025-09-27 10:15:52,454 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:15:55,471 - INFO - Update id=331455962 is handled. Duration 386 ms by bot id=8170384586
+2025-09-27 10:15:56,583 - INFO - Update id=331455963 is handled. Duration 167 ms by bot id=8170384586
+2025-09-27 10:15:59,218 - INFO - Update id=331455964 is handled. Duration 143 ms by bot id=8170384586
+2025-09-27 10:16:01,636 - INFO - Update id=331455965 is handled. Duration 306 ms by bot id=8170384586
+2025-09-27 10:16:05,410 - INFO - Update id=331455966 is handled. Duration 398 ms by bot id=8170384586
+2025-09-27 10:16:07,236 - INFO - Update id=331455967 is handled. Duration 376 ms by bot id=8170384586
+2025-09-27 10:16:09,651 - INFO - Update id=331455968 is handled. Duration 130 ms by bot id=8170384586
+2025-09-27 10:16:12,568 - INFO - Update id=331455969 is handled. Duration 149 ms by bot id=8170384586
+2025-09-27 10:16:16,673 - INFO - Update id=331455970 is handled. Duration 139 ms by bot id=8170384586
+2025-09-27 10:16:17,691 - INFO - Update id=331455971 is handled. Duration 150 ms by bot id=8170384586
+2025-09-27 10:16:19,695 - INFO - Update id=331455972 is handled. Duration 142 ms by bot id=8170384586
+2025-09-27 10:16:21,753 - INFO - Update id=331455973 is handled. Duration 150 ms by bot id=8170384586
+2025-09-27 10:16:23,725 - INFO - Update id=331455974 is handled. Duration 143 ms by bot id=8170384586
+2025-09-27 10:16:25,500 - INFO - Update id=331455975 is handled. Duration 144 ms by bot id=8170384586
+2025-09-27 10:16:27,350 - INFO - Update id=331455976 is handled. Duration 190 ms by bot id=8170384586
+2025-09-27 10:16:29,755 - INFO - Update id=331455977 is handled. Duration 372 ms by bot id=8170384586
+2025-09-27 10:16:33,460 - INFO - Update id=331455978 is handled. Duration 366 ms by bot id=8170384586
+2025-09-27 10:16:35,575 - INFO - Update id=331455979 is handled. Duration 147 ms by bot id=8170384586
+2025-09-27 10:16:37,006 - INFO - Update id=331455980 is handled. Duration 330 ms by bot id=8170384586
+2025-09-27 10:16:41,552 - INFO - Update id=331455981 is handled. Duration 560 ms by bot id=8170384586
+2025-09-27 10:16:49,911 - INFO - Update id=331455982 is handled. Duration 247 ms by bot id=8170384586
+2025-09-27 10:16:52,805 - INFO - Update id=331455983 is handled. Duration 581 ms by bot id=8170384586
+2025-09-27 10:16:55,218 - INFO - Update id=331455984 is handled. Duration 150 ms by bot id=8170384586
+2025-09-27 10:16:57,378 - INFO - Update id=331455985 is handled. Duration 140 ms by bot id=8170384586
+2025-09-27 10:16:59,210 - INFO - Update id=331455986 is handled. Duration 129 ms by bot id=8170384586
+2025-09-27 10:17:02,728 - INFO - Update id=331455987 is handled. Duration 370 ms by bot id=8170384586
+2025-09-27 10:17:04,577 - INFO - Update id=331455988 is handled. Duration 377 ms by bot id=8170384586
+2025-09-27 10:17:06,637 - INFO - Update id=331455989 is handled. Duration 174 ms by bot id=8170384586
+2025-09-27 10:30:07,947 - WARNING - Received SIGINT signal
+2025-09-27 10:30:08,242 - WARNING - Received SIGINT signal
+2025-09-27 10:30:08,250 - WARNING - Received SIGINT signal
+2025-09-27 10:30:08,250 - WARNING - Received SIGINT signal
+2025-09-27 10:30:08,353 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:30:08,370 - INFO - Polling stopped
+2025-09-27 10:30:08,431 - WARNING - Received SIGINT signal
+2025-09-27 10:30:08,554 - WARNING - Received SIGINT signal
+2025-09-27 10:30:08,745 - WARNING - Received SIGINT signal
+2025-09-27 10:30:15,753 - INFO - Configuration loaded successfully.
+2025-09-27 10:30:16,220 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:30:16,222 - INFO - Bot is starting...
+2025-09-27 10:30:16,223 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:30:16,223 - INFO - Starting bot in polling mode...
+2025-09-27 10:30:16,782 - INFO - Start polling
+2025-09-27 10:30:16,891 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:30:22,360 - INFO - Update id=331455990 is handled. Duration 403 ms by bot id=8170384586
+2025-09-27 10:30:23,534 - INFO - Update id=331455991 is handled. Duration 338 ms by bot id=8170384586
+2025-09-27 10:30:25,223 - INFO - Update id=331455992 is handled. Duration 142 ms by bot id=8170384586
+2025-09-27 10:30:26,966 - INFO - Update id=331455993 is handled. Duration 149 ms by bot id=8170384586
+2025-09-27 10:30:29,108 - INFO - Update id=331455994 is handled. Duration 140 ms by bot id=8170384586
+2025-09-27 10:30:30,681 - INFO - Update id=331455995 is handled. Duration 145 ms by bot id=8170384586
+2025-09-27 10:30:40,529 - INFO - Update id=331455996 is handled. Duration 297 ms by bot id=8170384586
+2025-09-27 10:30:42,857 - INFO - Update id=331455997 is handled. Duration 374 ms by bot id=8170384586
+2025-09-27 10:30:44,506 - INFO - Update id=331455998 is handled. Duration 206 ms by bot id=8170384586
+2025-09-27 10:30:46,522 - INFO - Update id=331455999 is handled. Duration 145 ms by bot id=8170384586
+2025-09-27 10:30:48,646 - INFO - Update id=331456000 is handled. Duration 176 ms by bot id=8170384586
+2025-09-27 10:30:50,547 - INFO - Update id=331456001 is handled. Duration 150 ms by bot id=8170384586
+2025-09-27 10:30:52,561 - INFO - Update id=331456002 is handled. Duration 167 ms by bot id=8170384586
+2025-09-27 10:30:55,172 - INFO - Update id=331456003 is handled. Duration 262 ms by bot id=8170384586
+2025-09-27 10:30:57,913 - INFO - Update id=331456004 is handled. Duration 372 ms by bot id=8170384586
+2025-09-27 10:31:00,804 - INFO - Update id=331456005 is handled. Duration 205 ms by bot id=8170384586
+2025-09-27 10:31:09,533 - INFO - Update id=331456006 is handled. Duration 1239 ms by bot id=8170384586
+2025-09-27 10:31:12,372 - INFO - Update id=331456007 is handled. Duration 187 ms by bot id=8170384586
+2025-09-27 10:32:24,919 - INFO - Update id=331456008 is handled. Duration 423 ms by bot id=8170384586
+2025-09-27 10:32:26,891 - INFO - Update id=331456009 is handled. Duration 136 ms by bot id=8170384586
+2025-09-27 10:36:22,463 - WARNING - Received SIGINT signal
+2025-09-27 10:36:22,593 - WARNING - Received SIGINT signal
+2025-09-27 10:36:22,707 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:36:22,750 - INFO - Polling stopped
+2025-09-27 10:36:22,941 - WARNING - Received SIGINT signal
+2025-09-27 10:36:22,982 - WARNING - Received SIGINT signal
+2025-09-27 10:36:23,110 - WARNING - Received SIGINT signal
+2025-09-27 10:36:30,517 - INFO - Configuration loaded successfully.
+2025-09-27 10:36:31,129 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:36:31,131 - INFO - Bot is starting...
+2025-09-27 10:36:31,132 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:36:31,132 - INFO - Starting bot in polling mode...
+2025-09-27 10:36:31,506 - INFO - Start polling
+2025-09-27 10:36:31,779 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:36:34,925 - INFO - Update id=331456010 is handled. Duration 787 ms by bot id=8170384586
+2025-09-27 10:36:36,975 - INFO - Update id=331456011 is handled. Duration 591 ms by bot id=8170384586
+2025-09-27 10:36:38,004 - INFO - Update id=331456012 is handled. Duration 210 ms by bot id=8170384586
+2025-09-27 10:36:40,838 - INFO - Update id=331456013 is handled. Duration 152 ms by bot id=8170384586
+2025-09-27 10:36:42,904 - INFO - Update id=331456014 is handled. Duration 174 ms by bot id=8170384586
+2025-09-27 10:36:44,581 - INFO - Update id=331456015 is handled. Duration 221 ms by bot id=8170384586
+2025-09-27 10:36:45,733 - INFO - Update id=331456016 is handled. Duration 208 ms by bot id=8170384586
+2025-09-27 10:36:47,342 - INFO - Update id=331456017 is handled. Duration 308 ms by bot id=8170384586
+2025-09-27 10:36:48,732 - INFO - Update id=331456018 is handled. Duration 159 ms by bot id=8170384586
+2025-09-27 10:36:50,313 - INFO - Update id=331456019 is handled. Duration 518 ms by bot id=8170384586
+2025-09-27 10:37:50,083 - WARNING - Received SIGINT signal
+2025-09-27 10:37:50,086 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:37:50,086 - INFO - Polling stopped
+2025-09-27 10:37:50,266 - WARNING - Received SIGINT signal
+2025-09-27 10:37:56,615 - INFO - Configuration loaded successfully.
+2025-09-27 10:37:56,941 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:37:56,943 - INFO - Bot is starting...
+2025-09-27 10:37:56,944 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:37:56,944 - INFO - Starting bot in polling mode...
+2025-09-27 10:37:57,544 - INFO - Start polling
+2025-09-27 10:37:57,656 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:37:59,613 - INFO - Update id=331456020 is handled. Duration 376 ms by bot id=8170384586
+2025-09-27 10:38:01,553 - INFO - Update id=331456021 is handled. Duration 161 ms by bot id=8170384586
+2025-09-27 10:38:02,993 - INFO - Update id=331456022 is handled. Duration 148 ms by bot id=8170384586
+2025-09-27 10:38:03,953 - INFO - Update id=331456023 is handled. Duration 150 ms by bot id=8170384586
+2025-09-27 10:38:05,231 - INFO - Update id=331456024 is handled. Duration 162 ms by bot id=8170384586
+2025-09-27 10:38:06,953 - INFO - Update id=331456025 is handled. Duration 252 ms by bot id=8170384586
+2025-09-27 10:38:09,230 - INFO - Update id=331456026 is handled. Duration 199 ms by bot id=8170384586
+2025-09-27 10:38:11,697 - INFO - Update id=331456027 is handled. Duration 382 ms by bot id=8170384586
+2025-09-27 10:38:13,729 - INFO - Update id=331456028 is handled. Duration 134 ms by bot id=8170384586
+2025-09-27 10:38:16,488 - INFO - Update id=331456029 is handled. Duration 157 ms by bot id=8170384586
+2025-09-27 10:38:17,982 - INFO - Update id=331456030 is handled. Duration 152 ms by bot id=8170384586
+2025-09-27 10:38:26,399 - INFO - Update id=331456031 is handled. Duration 148 ms by bot id=8170384586
+2025-09-27 10:39:21,841 - WARNING - Received SIGINT signal
+2025-09-27 10:39:21,845 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:39:21,845 - INFO - Polling stopped
+2025-09-27 10:39:28,868 - INFO - Configuration loaded successfully.
+2025-09-27 10:39:29,378 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:39:29,380 - INFO - Bot is starting...
+2025-09-27 10:39:29,381 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:39:29,381 - INFO - Starting bot in polling mode...
+2025-09-27 10:39:30,242 - INFO - Start polling
+2025-09-27 10:39:30,442 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:39:32,057 - INFO - Update id=331456032 is handled. Duration 580 ms by bot id=8170384586
+2025-09-27 10:39:33,387 - INFO - Update id=331456033 is handled. Duration 150 ms by bot id=8170384586
+2025-09-27 10:39:35,220 - INFO - Update id=331456034 is handled. Duration 143 ms by bot id=8170384586
+2025-09-27 10:39:37,988 - INFO - Update id=331456035 is handled. Duration 147 ms by bot id=8170384586
+2025-09-27 10:39:40,093 - INFO - Update id=331456036 is handled. Duration 156 ms by bot id=8170384586
+2025-09-27 10:39:42,092 - INFO - Update id=331456037 is handled. Duration 155 ms by bot id=8170384586
+2025-09-27 10:39:50,589 - INFO - Update id=331456038 is handled. Duration 152 ms by bot id=8170384586
+2025-09-27 10:39:52,871 - INFO - Update id=331456039 is handled. Duration 180 ms by bot id=8170384586
+2025-09-27 10:41:16,543 - INFO - Update id=331456040 is handled. Duration 249 ms by bot id=8170384586
+2025-09-27 10:41:29,553 - INFO - Update id=331456041 is handled. Duration 499 ms by bot id=8170384586
+2025-09-27 10:41:48,063 - INFO - Update id=331456042 is handled. Duration 149 ms by bot id=8170384586
+2025-09-27 10:42:11,047 - INFO - Update id=331456043 is handled. Duration 198 ms by bot id=8170384586
+2025-09-27 10:42:18,969 - INFO - Update id=331456044 is handled. Duration 148 ms by bot id=8170384586
+2025-09-27 10:42:42,700 - INFO - Update id=331456045 is handled. Duration 227 ms by bot id=8170384586
+2025-09-27 10:43:03,818 - INFO - Update id=331456046 is handled. Duration 148 ms by bot id=8170384586
+2025-09-27 10:43:18,570 - INFO - Update id=331456047 is handled. Duration 153 ms by bot id=8170384586
+2025-09-27 10:43:38,719 - INFO - Update id=331456048 is handled. Duration 144 ms by bot id=8170384586
+2025-09-27 10:43:40,482 - INFO - Update id=331456049 is handled. Duration 151 ms by bot id=8170384586
+2025-09-27 10:43:45,705 - INFO - Update id=331456050 is handled. Duration 1275 ms by bot id=8170384586
+2025-09-27 10:43:47,141 - INFO - Update id=331456051 is handled. Duration 148 ms by bot id=8170384586
+2025-09-27 10:44:29,673 - WARNING - Received SIGINT signal
+2025-09-27 10:44:29,694 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:44:29,697 - INFO - Polling stopped
+2025-09-27 10:44:29,828 - WARNING - Received SIGINT signal
+2025-09-27 10:44:38,129 - INFO - Configuration loaded successfully.
+2025-09-27 10:44:38,557 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:44:38,559 - INFO - Bot is starting...
+2025-09-27 10:44:38,560 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:44:38,560 - INFO - Starting bot in polling mode...
+2025-09-27 10:44:39,217 - INFO - Start polling
+2025-09-27 10:44:39,418 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:44:46,846 - INFO - Update id=331456052 is handled. Duration 604 ms by bot id=8170384586
+2025-09-27 10:44:47,899 - INFO - Update id=331456053 is handled. Duration 143 ms by bot id=8170384586
+2025-09-27 10:44:50,472 - INFO - Update id=331456054 is handled. Duration 235 ms by bot id=8170384586
+2025-09-27 10:44:52,489 - INFO - Update id=331456055 is handled. Duration 146 ms by bot id=8170384586
+2025-09-27 10:44:54,550 - INFO - Update id=331456056 is handled. Duration 146 ms by bot id=8170384586
+2025-09-27 10:44:55,946 - INFO - Update id=331456057 is handled. Duration 144 ms by bot id=8170384586
+2025-09-27 10:45:01,615 - INFO - Update id=331456058 is handled. Duration 184 ms by bot id=8170384586
+2025-09-27 10:45:33,884 - INFO - Update id=331456059 is handled. Duration 265 ms by bot id=8170384586
+2025-09-27 10:45:36,510 - INFO - Update id=331456060 is handled. Duration 160 ms by bot id=8170384586
+2025-09-27 10:46:04,789 - INFO - Update id=331456061 is handled. Duration 205 ms by bot id=8170384586
+2025-09-27 10:46:22,330 - INFO - Update id=331456062 is handled. Duration 306 ms by bot id=8170384586
+2025-09-27 10:46:29,767 - INFO - Update id=331456063 is handled. Duration 537 ms by bot id=8170384586
+2025-09-27 10:46:37,649 - INFO - Update id=331456064 is handled. Duration 159 ms by bot id=8170384586
+2025-09-27 10:46:48,116 - INFO - Update id=331456065 is handled. Duration 146 ms by bot id=8170384586
+2025-09-27 10:46:58,843 - INFO - Update id=331456066 is handled. Duration 157 ms by bot id=8170384586
+2025-09-27 10:47:05,699 - INFO - Update id=331456067 is handled. Duration 152 ms by bot id=8170384586
+2025-09-27 10:47:07,593 - INFO - Update id=331456068 is handled. Duration 260 ms by bot id=8170384586
+2025-09-27 10:47:59,276 - INFO - Update id=331456069 is handled. Duration 191 ms by bot id=8170384586
+2025-09-27 10:48:11,745 - INFO - Update id=331456070 is handled. Duration 778 ms by bot id=8170384586
+2025-09-27 10:48:13,283 - INFO - Update id=331456071 is handled. Duration 148 ms by bot id=8170384586
+2025-09-27 10:50:06,490 - WARNING - Received SIGINT signal
+2025-09-27 10:50:06,491 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:50:06,492 - INFO - Polling stopped
+2025-09-27 10:50:06,636 - WARNING - Received SIGINT signal
+2025-09-27 10:50:12,879 - INFO - Configuration loaded successfully.
+2025-09-27 10:50:13,431 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:50:13,433 - INFO - Bot is starting...
+2025-09-27 10:50:13,433 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:50:13,433 - INFO - Starting bot in polling mode...
+2025-09-27 10:50:14,478 - INFO - Start polling
+2025-09-27 10:50:14,585 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:50:19,099 - INFO - Update id=331456072 is handled. Duration 408 ms by bot id=8170384586
+2025-09-27 10:50:20,496 - INFO - Update id=331456073 is handled. Duration 181 ms by bot id=8170384586
+2025-09-27 10:50:22,508 - INFO - Update id=331456074 is handled. Duration 147 ms by bot id=8170384586
+2025-09-27 10:50:24,429 - INFO - Update id=331456075 is handled. Duration 208 ms by bot id=8170384586
+2025-09-27 10:50:26,508 - INFO - Update id=331456076 is handled. Duration 153 ms by bot id=8170384586
+2025-09-27 10:50:27,934 - INFO - Update id=331456077 is handled. Duration 148 ms by bot id=8170384586
+2025-09-27 10:50:29,999 - INFO - Update id=331456078 is handled. Duration 163 ms by bot id=8170384586
+2025-09-27 10:50:36,122 - INFO - Update id=331456079 is handled. Duration 143 ms by bot id=8170384586
+2025-09-27 10:50:38,617 - INFO - Update id=331456080 is handled. Duration 149 ms by bot id=8170384586
+2025-09-27 10:50:41,866 - INFO - Update id=331456081 is handled. Duration 155 ms by bot id=8170384586
+2025-09-27 10:50:43,978 - INFO - Update id=331456082 is handled. Duration 154 ms by bot id=8170384586
+2025-09-27 10:50:46,775 - INFO - Update id=331456083 is handled. Duration 146 ms by bot id=8170384586
+2025-09-27 10:50:52,590 - INFO - Update id=331456084 is handled. Duration 143 ms by bot id=8170384586
+2025-09-27 10:50:55,578 - INFO - Update id=331456085 is handled. Duration 244 ms by bot id=8170384586
+2025-09-27 10:51:02,649 - INFO - Update id=331456086 is handled. Duration 153 ms by bot id=8170384586
+2025-09-27 10:51:08,830 - INFO - Update id=331456087 is handled. Duration 153 ms by bot id=8170384586
+2025-09-27 10:51:10,384 - INFO - Update id=331456088 is handled. Duration 306 ms by bot id=8170384586
+2025-09-27 10:51:13,310 - INFO - Update id=331456089 is handled. Duration 160 ms by bot id=8170384586
+2025-09-27 10:51:23,741 - INFO - Update id=331456090 is handled. Duration 262 ms by bot id=8170384586
+2025-09-27 10:51:26,301 - INFO - Update id=331456091 is handled. Duration 152 ms by bot id=8170384586
+2025-09-27 10:51:36,579 - INFO - Update id=331456092 is handled. Duration 180 ms by bot id=8170384586
+2025-09-27 10:51:39,933 - INFO - Update id=331456093 is handled. Duration 160 ms by bot id=8170384586
+2025-09-27 10:53:25,422 - WARNING - Received SIGINT signal
+2025-09-27 10:53:25,423 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:53:25,424 - INFO - Polling stopped
+2025-09-27 10:53:25,582 - WARNING - Received SIGINT signal
+2025-09-27 10:53:31,700 - INFO - Configuration loaded successfully.
+2025-09-27 10:53:32,068 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:53:32,070 - INFO - Bot is starting...
+2025-09-27 10:53:32,071 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:53:32,071 - INFO - Starting bot in polling mode...
+2025-09-27 10:53:32,782 - INFO - Start polling
+2025-09-27 10:53:32,985 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:53:46,825 - WARNING - Received SIGINT signal
+2025-09-27 10:53:46,826 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:53:46,826 - INFO - Polling stopped
+2025-09-27 10:53:53,082 - INFO - Configuration loaded successfully.
+2025-09-27 10:53:53,412 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:53:53,414 - INFO - Bot is starting...
+2025-09-27 10:53:53,414 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:53:53,414 - INFO - Starting bot in polling mode...
+2025-09-27 10:53:54,090 - INFO - Start polling
+2025-09-27 10:53:54,295 - INFO - Run polling for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:54:00,217 - INFO - Update id=331456094 is handled. Duration 765 ms by bot id=8170384586
+2025-09-27 10:54:01,244 - INFO - Update id=331456095 is handled. Duration 201 ms by bot id=8170384586
+2025-09-27 10:54:04,767 - INFO - Update id=331456096 is handled. Duration 212 ms by bot id=8170384586
+2025-09-27 10:54:06,720 - INFO - Update id=331456097 is handled. Duration 144 ms by bot id=8170384586
+2025-09-27 10:54:08,784 - INFO - Update id=331456098 is handled. Duration 155 ms by bot id=8170384586
+2025-09-27 10:54:10,361 - INFO - Update id=331456099 is handled. Duration 195 ms by bot id=8170384586
+2025-09-27 10:54:15,510 - INFO - Update id=331456100 is handled. Duration 301 ms by bot id=8170384586
+2025-09-27 10:54:17,833 - INFO - Update id=331456101 is handled. Duration 205 ms by bot id=8170384586
+2025-09-27 10:54:19,482 - INFO - Update id=331456102 is handled. Duration 386 ms by bot id=8170384586
+2025-09-27 10:54:21,743 - INFO - Update id=331456103 is handled. Duration 391 ms by bot id=8170384586
+2025-09-27 10:54:23,937 - INFO - Update id=331456104 is handled. Duration 258 ms by bot id=8170384586
+2025-09-27 10:54:28,835 - INFO - Update id=331456105 is handled. Duration 196 ms by bot id=8170384586
+2025-09-27 10:54:31,040 - INFO - Update id=331456106 is handled. Duration 211 ms by bot id=8170384586
+2025-09-27 10:54:34,121 - INFO - Update id=331456107 is handled. Duration 201 ms by bot id=8170384586
+2025-09-27 10:54:36,138 - INFO - Update id=331456108 is handled. Duration 148 ms by bot id=8170384586
+2025-09-27 10:54:38,526 - INFO - Update id=331456109 is handled. Duration 153 ms by bot id=8170384586
+2025-09-27 10:54:42,500 - INFO - Update id=331456110 is handled. Duration 773 ms by bot id=8170384586
+2025-09-27 10:54:43,726 - INFO - Update id=331456111 is handled. Duration 159 ms by bot id=8170384586
+2025-09-27 10:56:30,697 - WARNING - Received SIGINT signal
+2025-09-27 10:56:30,698 - INFO - Polling stopped for bot @waterasdbot id=8170384586 - 'Water'
+2025-09-27 10:56:30,699 - INFO - Polling stopped
+2025-09-27 10:56:30,875 - WARNING - Received SIGINT signal
+2025-09-27 10:56:36,725 - INFO - Configuration loaded successfully.
+2025-09-27 10:56:37,158 - INFO - Bot and Dispatcher initialized successfully.
+2025-09-27 10:56:37,160 - INFO - Bot is starting...
+2025-09-27 10:56:37,161 - INFO - Bot is running in POLLING mode.
+2025-09-27 10:56:37,161 - INFO - Starting bot in polling mode...
+2025-09-27 10:56:40,715 - INFO - Start polling
+2025-09-27 10:56:40,823 - INFO - Run polling for bot @Smartfood_HRbot id=8211526977 - 'Smart Food HR'
+2025-09-27 10:57:11,376 - INFO - Update id=924078270 is handled. Duration 400 ms by bot id=8211526977
+2025-09-27 10:57:13,563 - INFO - Update id=924078271 is handled. Duration 184 ms by bot id=8211526977
+2025-09-27 10:57:15,355 - INFO - Update id=924078272 is handled. Duration 138 ms by bot id=8211526977
+2025-09-27 10:57:16,453 - INFO - Update id=924078273 is handled. Duration 213 ms by bot id=8211526977
+2025-09-27 10:57:17,540 - INFO - Update id=924078274 is handled. Duration 164 ms by bot id=8211526977
+2025-09-27 10:57:19,283 - INFO - Update id=924078275 is handled. Duration 554 ms by bot id=8211526977
+2025-09-27 10:57:21,248 - INFO - Update id=924078276 is handled. Duration 383 ms by bot id=8211526977
+2025-09-27 10:57:22,960 - INFO - Update id=924078277 is handled. Duration 369 ms by bot id=8211526977
+2025-09-27 10:57:26,202 - WARNING - Received SIGINT signal
+2025-09-27 10:57:26,202 - INFO - Polling stopped for bot @Smartfood_HRbot id=8211526977 - 'Smart Food HR'
+2025-09-27 10:57:26,203 - INFO - Polling stopped
+2025-09-27 10:57:26,369 - WARNING - Received SIGINT signal
