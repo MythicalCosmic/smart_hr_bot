@@ -14,10 +14,11 @@ import re
 import os
 
 ADMIN_ID = [6589960007, 8128453330]  
+ADMIN_ID_MAIN = 6589960007
 router = Router()
 
 @router.message(Command('start'))
-async def start_handler(message: Message, state: FSMContext, bot: Bot):
+async def start_handler_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
@@ -29,12 +30,12 @@ async def start_handler(message: Message, state: FSMContext, bot: Bot):
             await message.reply(get_translation("start_message", 'en'), reply_markup=language_keyboard(), parse_mode="HTML")
             await state.set_state(UserStates.set_language)
     except Exception as e:
-        await message.reply(f'Error occured in start handler: {e}')
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on start_handler input: {e}")
 
 
 
 @router.message(lambda message: message.text == get_button_text("back_button", get_user_language(message.from_user.id)), StateFilter(UserStates.regiser_first.state, UserStates.main, UserStates.last_name, UserStates.age, UserStates.phone_number, UserStates.extra_number, UserStates.address, UserStates.student_confirmation, UserStates.student_class_level, UserStates.workplace_old, UserStates.friend_worker, UserStates.workin_us, UserStates.expected_salary, UserStates.about_did, UserStates.position, UserStates.your_im, UserStates.confirmation_data))
-async def handle_back(message: Message, state: FSMContext, bot: Bot):
+async def handle_back_input(message: Message, state: FSMContext, bot: Bot):
     try:
         current_state = await state.get_state()
         print(current_state)
@@ -200,7 +201,7 @@ async def handle_back(message: Message, state: FSMContext, bot: Bot):
             await message.answer("Unknown state. Please try again.")
 
     except Exception as e:
-        await message.reply(f'Error occured on handle back: {e}')
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_back_input input: {e}")
 
 @router.message(lambda message: message.text == get_button_text('contact_us_button', get_user_language(message.from_user.id)), StateFilter(UserStates.main))
 async def main_contact_us_input(message: Message, state: FSMContext, bot: Bot):
@@ -218,7 +219,7 @@ async def main_contact_us_input(message: Message, state: FSMContext, bot: Bot):
                 reply_markup=main_keyboard(language=language)
         )
     except Exception as e:
-        await message.reply(f"⚠️ Error: {e}")
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on main_contact_us_input input: {e}")
 
 @router.message(lambda message: message.text == get_button_text('settings_button', get_user_language(message.from_user.id)), StateFilter(UserStates.main))
 async def main_settings_input(message: Message, state: FSMContext, bot: Bot):
@@ -228,10 +229,10 @@ async def main_settings_input(message: Message, state: FSMContext, bot: Bot):
         await message.reply(get_translation("start_message", 'en'), reply_markup=language_keyboard(), parse_mode="HTML")
         await state.set_state(UserStates.set_language)
     except Exception as e:
-        await message.reply(f"⚠️ Error occurred while settings results: {e}")
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on main_settings_input input: {e}")
 
 @router.message(lambda message: message.text in [EN, RU, UZ], StateFilter(UserStates.set_language))
-async def set_language_handler(message: Message, state: FSMContext, bot: Bot):
+async def set_language_handler_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language_map = {
@@ -247,11 +248,11 @@ async def set_language_handler(message: Message, state: FSMContext, bot: Bot):
         set_user_state(user_id=user_id, state=UserStates.main.state)
         await state.set_state(UserStates.main)
     except Exception as e:
-        await message.reply(f'Error occurred: {e}')
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on set_language_handler_input input: {e}")
 
 
 @router.message(lambda message: message.text == get_button_text('register_button', language=get_user_language(message.from_user.id)), StateFilter(UserStates.main))
-async def regiser_button_handler(message: Message, state: FSMContext, bot: Bot):
+async def regiser_button_handler_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
@@ -259,11 +260,11 @@ async def regiser_button_handler(message: Message, state: FSMContext, bot: Bot):
         await message.reply(get_translation('first_name_message', language=language), reply_markup=back_keyboard(language=language), parse_mode="HTML")
         await state.set_state(UserStates.regiser_first)
     except Exception as e:
-        await message.reply(f'Error occured on regiser button handler: {e}')
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on regiser_button_handler_input input: {e}")
 
 
 @router.message(StateFilter(UserStates.regiser_first))
-async def handle_first_name(message: Message, state: FSMContext, bot: Bot):
+async def handle_first_name_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
@@ -276,11 +277,11 @@ async def handle_first_name(message: Message, state: FSMContext, bot: Bot):
         )
         await state.set_state(UserStates.last_name)
     except Exception as e:
-        await message.reply(f'Error occured on handle first name: {e}')
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_first_name_input input: {e}")
 
 
 @router.message(StateFilter(UserStates.last_name))
-async def handle_last_name(message: Message, state: FSMContext, bot: Bot):
+async def handle_last_name_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
@@ -290,10 +291,10 @@ async def handle_last_name(message: Message, state: FSMContext, bot: Bot):
         await message.reply(get_translation('age_message', language=language), reply_markup=back_keyboard(language=language), parse_mode='HTML')
         await state.set_state(UserStates.age)
     except Exception as e:
-        await message.reply(f'Error occured on handle last name: {e}')
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_last_name_input input: {e}")
 
 @router.message(StateFilter(UserStates.age))
-async def handle_age(message: Message, state: FSMContext, bot: Bot):
+async def handle_age_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
@@ -316,11 +317,11 @@ async def handle_age(message: Message, state: FSMContext, bot: Bot):
         await state.set_state(UserStates.phone_number)
 
     except Exception as e:
-        await message.reply(f'Error occurred: {e}')
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_age_input input: {e}")
 
 
 @router.message(StateFilter(UserStates.phone_number))
-async def handle_phone_number(message: Message, state: FSMContext, bot: Bot):
+async def handle_phone_number_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
@@ -360,11 +361,11 @@ async def handle_phone_number(message: Message, state: FSMContext, bot: Bot):
         )
 
     except Exception as e:
-        await message.reply(f"Error occurred on handle number: {e}")
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_phone_number_input input: {e}")
 
 
 @router.message(StateFilter(UserStates.extra_number))
-async def handle_phone_number_extra(message: Message, state: FSMContext, bot: Bot):
+async def handle_phone_number_extra_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
@@ -402,7 +403,7 @@ async def handle_phone_number_extra(message: Message, state: FSMContext, bot: Bo
         )
 
     except Exception as e:
-        await message.reply(f"Error occurred on handle number: {e}")
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_phone_number_extra_input input: {e}")
 
 
 @router.message(StateFilter(UserStates.address))
@@ -420,7 +421,7 @@ async def handle_address_input(message: Message, state: FSMContext, bot: Bot):
         )
         await state.set_state(UserStates.student_confirmation)
     except Exception as e:
-        await message.reply(f"Error occured on address input: {e}")
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_address_input input: {e}")
 
 @router.message(lambda message: message.text == get_button_text('yes_button', language=get_user_language(message.from_user.id)), StateFilter(UserStates.student_confirmation))
 async def handle_student_confirmation_input(message: Message, state: FSMContext, bot: Bot):
@@ -435,7 +436,7 @@ async def handle_student_confirmation_input(message: Message, state: FSMContext,
         )
         await state.set_state(UserStates.student_class_level)
     except Exception as e:
-        await message.reply(f"Error occured on address input: {e}")
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_student_confirmation_input input: {e}")
 
 @router.message(lambda message: message.text == get_button_text('no_button', language=get_user_language(message.from_user.id)), StateFilter(UserStates.student_confirmation))
 async def handle_student_confirmation_input(message: Message, state: FSMContext, bot: Bot):
@@ -450,11 +451,11 @@ async def handle_student_confirmation_input(message: Message, state: FSMContext,
         )
         await state.set_state(UserStates.workplace_old)
     except Exception as e:
-        await message.reply(f"Error occured on address input: {e}")
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_student_confirmation_input input: {e}")
 
 
 @router.message(StateFilter(UserStates.student_class_level))
-async def handle_student_class_input(message: Message, state: FSMContext, bot: Bot):
+async def handle_student_class_level_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
@@ -469,10 +470,10 @@ async def handle_student_class_input(message: Message, state: FSMContext, bot: B
         await state.set_state(UserStates.workplace_old)
 
     except Exception as e:
-        pass
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_student_class_level_input input: {e}")
 
 @router.message(StateFilter(UserStates.workplace_old))
-async def handle_student_class_input(message: Message, state: FSMContext, bot: Bot):
+async def handle_workplace_old_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
@@ -487,10 +488,10 @@ async def handle_student_class_input(message: Message, state: FSMContext, bot: B
         await state.set_state(UserStates.friend_worker)
 
     except Exception as e:
-        pass
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_workplace_old_input input: {e}")
 
 @router.message(StateFilter(UserStates.friend_worker))
-async def handle_student_class_input(message: Message, state: FSMContext, bot: Bot):
+async def handle_friend_worker_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
@@ -505,10 +506,10 @@ async def handle_student_class_input(message: Message, state: FSMContext, bot: B
         await state.set_state(UserStates.expected_salary)
 
     except Exception as e:
-        pass
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_friend_worker_input input: {e}")
 
 @router.message(StateFilter(UserStates.expected_salary))
-async def handle_student_class_input(message: Message, state: FSMContext, bot: Bot):
+async def handle_expected_salary_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
@@ -523,10 +524,10 @@ async def handle_student_class_input(message: Message, state: FSMContext, bot: B
         await state.set_state(UserStates.workin_us)
 
     except Exception as e:
-        pass
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_expected_salary_input input: {e}")
 
 @router.message(StateFilter(UserStates.workin_us))
-async def handle_student_class_input(message: Message, state: FSMContext, bot: Bot):
+async def handle_workin_us_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
@@ -541,10 +542,10 @@ async def handle_student_class_input(message: Message, state: FSMContext, bot: B
         await state.set_state(UserStates.about_did)
 
     except Exception as e:
-        pass
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_workin_us_input input: {e}")
 
 @router.message(StateFilter(UserStates.about_did))
-async def handle_student_class_input(message: Message, state: FSMContext, bot: Bot):
+async def handle_about_did_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
@@ -559,18 +560,29 @@ async def handle_student_class_input(message: Message, state: FSMContext, bot: B
         await state.set_state(UserStates.position)
 
     except Exception as e:
-        pass
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_about_did_input input: {e}")
 
 
 @router.message(StateFilter(UserStates.position))
-async def handle_student_class_input(message: Message, state: FSMContext, bot: Bot):
+async def handle_position_input(message: Message, state: FSMContext, bot: Bot):
     try:
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
-        position = message.text.strip()
-        await state.update_data(position=position)
-        position_key = get_job_role_key_by_text(message.text.strip(), language)
+        position_text = message.text.strip()
+
+        position_key = get_job_role_key_by_text(position_text, language)
+
+        if not position_key:
+            await message.reply(
+                get_translation("position_mess", language),
+                reply_markup=job_roles_keyboard(language), 
+                parse_mode="HTML"
+            )
+            return 
+
+        await state.update_data(position=position_text)
         position_details = get_position_details(position_key, language)
+
         set_user_state(user_id=user_id, state=UserStates.your_im.state)
         await message.reply(
             position_details + f"\n\n\n <b>{get_translation('your_im_mess', language)}</b>",
@@ -580,7 +592,7 @@ async def handle_student_class_input(message: Message, state: FSMContext, bot: B
         await state.set_state(UserStates.your_im)
 
     except Exception as e:
-        pass
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error in handle_position_input: {e}")
 
 
 @router.message(StateFilter(UserStates.your_im))
@@ -599,6 +611,14 @@ async def handle_image_upload(message: Message, state: FSMContext, bot: Bot):
             state_data = await state.get_data()  
             
             data_summary = get_data_summary(state_data, language)
+
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            user_dir = f"./media/user_data/{user_id}"
+            os.makedirs(user_dir, exist_ok=True)
+            photo_path = f"{user_dir}/{timestamp}.jpg"
+
+            file = await bot.get_file(photo.file_id)
+            await bot.download_file(file.file_path, destination=photo_path)
             
             await bot.send_photo(
                 chat_id=user_id,
@@ -638,7 +658,7 @@ async def handle_image_upload(message: Message, state: FSMContext, bot: Bot):
             )
             
     except Exception as e:
-        await message.reply(f"Error in image upload: {str(e)}")
+        await bot.send_message(chat_id=ADMIN_ID_MAIN, text=f"Error occured on handle_image_upload input: {e}")
 
 @router.message(lambda message: message.text == get_button_text('yes_button', language=get_user_language(message.from_user.id)), StateFilter(UserStates.confirmation_data))
 async def handle_student_confirmation_input(message: Message, state: FSMContext, bot: Bot):
@@ -646,6 +666,10 @@ async def handle_student_confirmation_input(message: Message, state: FSMContext,
         user_id = message.from_user.id
         language = get_user_language(user_id=user_id)
         set_user_state(user_id=user_id, state=UserStates.main.state)
+        await message.answer(
+            get_translation('approved_message', language=language),
+            parse_mode='HTML'
+        )
         await message.reply(
             get_translation('main_message', language=language),
             reply_markup=main_keyboard(language=language),
@@ -663,6 +687,10 @@ async def handle_student_confirmation_input(message: Message, state: FSMContext,
         set_user_state(user_id=user_id, state=UserStates.main.state)
         await message.reply(
             get_translation('canceled_mess', language=language),
+            parse_mode='HTML'
+        )
+        await message.reply(
+            get_translation('main_message', language=language),
             reply_markup=main_keyboard(language=language),
             parse_mode='HTML'
         )
@@ -688,10 +716,6 @@ async def handle_unrecognized_input(message: Message, state: FSMContext, bot: Bo
             UserStates.position: {
                 "text": get_translation('positon_mess', language=language),
                 "keyboard": job_roles_keyboard(language=language)
-            },
-            UserStates.position: {
-                "text": get_translation('confirmation_data_mess', language=language),
-                "keyboard": confirmation_keyboard(language=language)
             },
         }
         response = state_responses.get(current_state, {

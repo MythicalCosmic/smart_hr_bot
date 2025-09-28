@@ -1,0 +1,32 @@
+{
+  "uz": {
+    "hr_manager": "👤 HR menejer",
+    "manager": "👔 Menejer",
+    "cook": "👨‍🍳 Povar (Oshpaz)",
+    "cashier": "💰 Kassir",
+    "cafe_universal": "☕ Kafening universal hodimi",
+    "call_center": "📞 Call center operatori",
+    "salesperson": "🛒 Salat tayyorlovchi",
+    "courier_driver": "🚗 Kuryer (dostavka)"
+  },
+  "en": {
+    "hr_manager": "👤 HR Manager",
+    "manager": "👔 Manager",
+    "cook": "👨‍🍳 Cook (Chef)",
+    "cashier": "💰 Cashier",
+    "cafe_universal": "☕ Cafe Universal Worker",
+    "call_center": "📞 Call Center Operator",
+    "salesperson": "🛒 Salad Preparer",
+    "courier_driver": "🚗 Courier (Delivery)"
+  },
+  "ru": {
+    "hr_manager": "👤 HR менеджер",
+    "manager": "👔 Менеджер",
+    "cook": "👨‍🍳 Повар (Шеф-повар)",
+    "cashier": "💰 Кассир",
+    "cafe_universal": "☕ Универсальный работник кафе",
+    "call_center": "📞 Оператор колл-центра",
+    "salesperson": "🛒 Приготовитель салатов",
+    "courier_driver": "🚗 Курьер (доставка)"
+  }
+}

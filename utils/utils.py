@@ -182,11 +182,9 @@ def get_position_by_title(title: str):
         db.close()
 
 
-
 def save_application_to_database(user_id: int, state_data: dict, language: str) -> int:
     """Save the complete job application to database and return application_id"""
     
-    # First, ensure user exists in database
     user_info = state_data.get('user_info', {})
     add_user(
         user_id=user_id,
@@ -195,37 +193,31 @@ def save_application_to_database(user_id: int, state_data: dict, language: str) 
         username=user_info.get('username')
     )
     
-    # Get or create position
-    position_key = state_data.get('position_key')
     position_title = state_data.get('position', 'Unknown Position')
-    
-    # --- FIX: get existing position by title first ---
-    position = get_position_by_title(position_title)  # <- new helper function
+    position = get_position_by_title(position_title) 
     
     if not position:
         position = create_position(title=position_title)
     
-    # Create job application
     application = create_application(user_id=user_id, position_id=position.id)
     
-    # Add all the details
     detail_fields = {
-        'first_name': state_data.get('first_name'),
-        'last_name': state_data.get('last_name'),
-        'age': state_data.get('age'),
-        'phone_number': state_data.get('phone_number'),
-        'extra_number': state_data.get('extra_number'),
-        'address': state_data.get('address'),
-        'is_student': 'Yes' if 'level' in state_data else 'No',
-        'student_level': state_data.get('level'),
-        'workplace': state_data.get('workplace'),
-        'friend_worker': state_data.get('friend_worker'),
-        'expected_salary': state_data.get('expected_salary'),
-        'working_us': state_data.get('workin_us'),
-        'about_did': state_data.get('about_did_mess'),
-        'position': state_data.get('position'),
-        'photo_file_id': state_data.get('user_photo'),
-        'language': language
+        "first_name": state_data.get("first_name"),
+        "last_name": state_data.get("last_name"),
+        "age": state_data.get("age"),
+        "phone_number": state_data.get("phone_number"),
+        "extra_number": state_data.get("extra_number"),
+        "address": state_data.get("address"),
+        "is_student": "Yes" if state_data.get("level") else "No",
+        "student_level": state_data.get("level"),
+        "workplace": state_data.get("workplace"),
+        "friend_worker": state_data.get("friend_worker"),
+        "expected_salary": state_data.get("expected_salary"),
+        "working_us": state_data.get("workin_us"),
+        "about_did": state_data.get("about_did_mess"),
+        "position": state_data.get("position"),
+        "photo_file_id": state_data.get("user_photo"),
+        "language": language
     }
     
     for field_name, field_value in detail_fields.items():
@@ -234,7 +226,7 @@ def save_application_to_database(user_id: int, state_data: dict, language: str) 
                 application_id=application.id,
                 field_name=field_name,
                 field_value=str(field_value),
-                field_type='photo' if field_name == 'photo_file_id' else 'text'
+                field_type="photo" if field_name == "photo_file_id" else "text"
             )
     
     return application.id
@@ -244,6 +236,7 @@ def get_admin_summary(state_data: dict, language: str, application_id: int) -> s
     """Generate admin notification summary"""
     labels = DATA_LABELS.get(language, DATA_LABELS['uz'])
     
+    
     summary = f"🆕 <b>New Job Application #{application_id}</b>\n\n"
     summary += f"👤 <b>Applicant:</b> {state_data.get('first_name', '')} {state_data.get('last_name', '')}\n"
     summary += f"📞 <b>Phone:</b> {state_data.get('phone_number', '')}\n"
@@ -251,8 +244,29 @@ def get_admin_summary(state_data: dict, language: str, application_id: int) -> s
     summary += f"🌐 <b>Language:</b> {language.upper()}\n"
     summary += f"📅 <b>Submitted:</b> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
     
-    summary += "📋 <b>Full Details:</b>\n"
-    summary += get_data_summary(state_data, language)
+
+    detail_fields = {
+        "first_name": state_data.get("first_name"),
+        "last_name": state_data.get("last_name"),
+        "age": state_data.get("age"),
+        "phone_number": state_data.get("phone_number"),
+        "extra_number": state_data.get("extra_number"),
+        "address": state_data.get("address"),
+        "is_student": labels["yes"] if state_data.get("level") else labels["no"],
+        "student_level": state_data.get("level"),
+        "workplace": state_data.get("workplace"),
+        "friend_worker": state_data.get("friend_worker"),
+        "expected_salary": state_data.get("expected_salary"),
+        "working_us": state_data.get("workin_us"),
+        "about_did": state_data.get("about_did_mess"),
+        "position": state_data.get("position"),
+        "photo_status": labels["photo_status"] if state_data.get("user_photo") else labels["no"]
+    }
+
+    for field, value in detail_fields.items():
+        if value:  
+            label = labels.get(field, field)
+            summary += f"{label} {value}\n"
     
     return summary
 
