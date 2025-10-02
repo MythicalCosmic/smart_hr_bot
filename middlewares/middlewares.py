@@ -1,30 +1,37 @@
-from aiogram import BaseMiddleware
-from aiogram.types import Message
-from handlers.states import UserStates
-from keyboards.keyboards import language_keyboard
-from config.settings import get_translation
-from utils.utils import * 
+import logging
+import uvicorn
+import asyncio
+from fastapi import FastAPI
+from aiogram.types import Update
+from config.config import bot, dp
+from config.settings import WEBHOOK, WEBHOOK_URL
 
-class UserRegistrationMiddleware(BaseMiddleware):
-    async def __call__(self, handler, event: Message, data: dict):
-        
-        user_id = event.from_user.id
-        first_name = event.from_user.first_name
-        last_name = event.from_user.last_name
-        username = event.from_user.username
-        language = get_user_language(user_id=user_id)
-        
-        if not user_exists(user_id):
-            add_user(user_id, first_name, last_name, username)
-            set_user_state(user_id, UserStates.set_language.state)
-            
-            await event.answer(
-                get_translation('start_message', language=language),
-                reply_markup=language_keyboard(),
-                parse_mode='HTML'
-            )
-            state = data['state']
-            await state.set_state(UserStates.set_language)
-            return 
-        
-        return await handler(event, data)
+app = FastAPI()
+
+@app.post("/webhook")
+async def webhook(update: dict):
+    tg_update = Update(**update)
+    await dp.feed_update(bot, tg_update)
+    return {"status": "ok"}
+
+
+async def on_startup():
+    if WEBHOOK:
+        logging.info("Setting webhook...")
+        await bot.set_webhook(WEBHOOK_URL)
+    else:
+        logging.info("Deleting webhook and starting polling...")
+        await bot.delete_webhook(drop_pending_updates=True)
+        asyncio.create_task(dp.start_polling(bot))  # non-blocking
+
+
+def start():
+    logging.info(f"Starting in {'WEBHOOK' if WEBHOOK else 'POLLING'} mode.")
+    if WEBHOOK:
+        uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=False)
+    else:
+        asyncio.run(on_startup())
+
+
+if __name__ == "__main__":
+    start()

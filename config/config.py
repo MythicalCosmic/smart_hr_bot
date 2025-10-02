@@ -2,7 +2,7 @@ from aiogram import Bot, Dispatcher
 import logging
 from config.settings import BOT_TOKEN, ADMIN_ID
 from handlers.handlers import router
-from middlewares.middlewares import UserRegistrationMiddleware
+from middlewares.middlewares import UserRegistrationMiddleware, PrivateChatMiddleware
 
 if not BOT_TOKEN:
     logging.critical("BOT_TOKEN is missing! Please check your .env file.")
@@ -11,6 +11,7 @@ if not BOT_TOKEN:
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
+dp.message.middleware(PrivateChatMiddleware())
 dp.message.middleware(UserRegistrationMiddleware())
 dp.include_router(router)
 
