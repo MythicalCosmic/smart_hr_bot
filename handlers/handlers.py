@@ -13,7 +13,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 import re
 import os
 
-ADMIN_ID = [6589960007, 8128453330, -4254434456]  
+ADMIN_ID = [6589960007, 8128453330, -1003148462602]  
 ADMIN_ID_MAIN = 6589960007
 router = Router()
 
